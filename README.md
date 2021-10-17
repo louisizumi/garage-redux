@@ -1,14 +1,24 @@
-# redux-router-boilerplate
+### Garage Redux
 
-Simple React + Router + Redux starter with the following config:
+The goal of this challenge was to create a React-Redux app for keeping track of cars in a garage.
+The app uses react-router to manage routes.
 
-- React, ReactDOM
-- Redux, React-Redux
-- React-Router-DOM
-- Webpack 3
-- Babel with es2015 and react presets
-- Bootstrap (css only, loaded from a cdn in `index.html`)
-- work with `.js` or `.jsx` files
-- main `application.scss` stylesheet is imported in `index.js` as a module to enjoy hot reloading
+Here's how it looks:
+![Index](./CarIndex.png)
+![Show](./CarShow.png)
+![New](./CarNew.png)
 
-⚠️This can't be deployed on GitHub Pages, it needs a Node.js setup for the back-end as the paths need to be dynamically linked back to `index.html`.
+#### 1. Setup
+
+The challenge used the Le Wagon [Redux boilerplate](https://github.com/lewagon/redux-boilerplate) and Le Wagon [Garage API](https://github.com/lewagon/garage-api)
+
+#### 2. Features
+
+* Users can view a list of all their cars.
+* Users can select a car to view more details.
+* Users can add a car to their collection.
+
+#### 3. Potential
+
+* Improve styling for accessibility.
+* Add mobile-first responsive capabilities.
