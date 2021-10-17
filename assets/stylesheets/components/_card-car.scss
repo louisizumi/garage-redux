@@ -1,0 +1,25 @@
+.card-car {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+  position: relative;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.card-car__link {
+  text-decoration: none;
+}
+
+.card-car__image {
+  border-radius: 8px 0 0 8px;
+}
+
+.card-car__details {
+  color: black;
+
+  p {
+    margin: 8px 0;
+  }
+}

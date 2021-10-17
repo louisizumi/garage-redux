@@ -1,0 +1,33 @@
+.btn {
+  display: block;
+  border: none;
+  padding: 16px 32px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn--top-right {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.btn--main {
+  border-radius: 0 4vh 0 4vh;
+  background-color: #fff;
+  color: black;
+}
+
+.btn--delete {
+  border-radius: 0 8px 0 8px;
+  background-color: rgba(255, 30, 30, 0.8);
+  color: white;
+}
+
+.btn--submit {
+  margin: 8px;
+  border-radius: 8px;
+  width: calc(100% - 16px);
+  background-color: rgba(30, 120, 255, 0.8);
+  color: white;
+}

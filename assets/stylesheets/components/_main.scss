@@ -1,0 +1,42 @@
+.garage {
+  position: relative;
+  border-radius: 5vh;
+  box-shadow: 0 12px 8px 4px rgba(0, 0, 0, 0.1);
+  width: 960px;
+  height: 90vh;
+  background-color: #ddd;
+}
+
+.garage__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  text-align: center;
+}
+
+.garage__main {
+  margin: 16px auto;
+  width: 90%;
+  height: calc(90% - 32px);
+}
+
+.list-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px 16px;
+}
+
+@media only screen and(max-width: 1000px) {
+  .garage {
+    width: 90vw;
+  }
+
+  .list-columns {
+    display: block;
+  }
+
+  li {
+    margin: 16px auto;
+  }
+}
